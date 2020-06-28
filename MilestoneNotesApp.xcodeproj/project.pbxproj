@@ -13,6 +13,8 @@
 		8986685924A9313900C37EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8986685724A9313900C37EA3 /* Main.storyboard */; };
 		8986685B24A9314100C37EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8986685A24A9314100C37EA3 /* Assets.xcassets */; };
 		8986685E24A9314100C37EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8986685C24A9314100C37EA3 /* LaunchScreen.storyboard */; };
+		8986686624A931BC00C37EA3 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986686524A931BC00C37EA3 /* Note.swift */; };
+		8986686824A9370900C37EA3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986686724A9370900C37EA3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8986685A24A9314100C37EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8986685D24A9314100C37EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8986685F24A9314100C37EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8986686524A931BC00C37EA3 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		8986686724A9370900C37EA3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8986685A24A9314100C37EA3 /* Assets.xcassets */,
 				8986685C24A9314100C37EA3 /* LaunchScreen.storyboard */,
 				8986685F24A9314100C37EA3 /* Info.plist */,
+				8986686524A931BC00C37EA3 /* Note.swift */,
+				8986686724A9370900C37EA3 /* DetailViewController.swift */,
 			);
 			path = MilestoneNotesApp;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				8986685624A9313900C37EA3 /* ViewController.swift in Sources */,
 				8986685224A9313900C37EA3 /* AppDelegate.swift in Sources */,
+				8986686824A9370900C37EA3 /* DetailViewController.swift in Sources */,
 				8986685424A9313900C37EA3 /* SceneDelegate.swift in Sources */,
+				8986686624A931BC00C37EA3 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
